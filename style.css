@@ -12,6 +12,7 @@ body {
     position: relative;
     width: 100%;
     height: 48px;
+    top: 40px;
 }
 
 .logo {
@@ -20,6 +21,9 @@ body {
 }
 
 .navbar {
+    position: relative;
+    left: 41%;
+    bottom: 6px;
     width: 630px;
     height: 48px;
 }
@@ -37,4 +41,84 @@ body {
     font: 400 18px/29px Poppins, helvetica, sans-serif;
     color: #4b321D;
     text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    left: 2px;
+    top: 85px;
+    height: 200px;
+}
+
+.hero__title {
+    font: 400 80px/100px Poppins, helvetica, sans-serif;
+}
+
+.hero-image {
+    position: relative;
+    right: 40px;
+    top: 222px;
+    height: 928px;
+}
+
+.main-content {
+    position: relative;
+    top: 197px;
+    height: 300px;
+}
+
+.main-content__title {
+    font: 400 80px/100px Poppins, helvetica, sans-serif;
+}
+
+.main-content__link {
+    position: absolute;
+    padding: 11px 17px 10px 17px;
+    width: 126px;
+    height: 29px;
+    bottom: -10px;
+    font: 400 20px/29px Poppins, helvetica, sans-serif;
+    text-decoration: none;
+    border: 2px solid #4b321D;
+    border-radius: 3px;
+}
+
+.main-about {
+    position: relative;
+    height: 885.59px;
+    top: 292px;
+}
+
+.main-about__block {
+    position: relative;
+    top: 265px;
+    right: 2px;
+    float: right;
+    width: 630px;
+    height: 296px;
+}
+
+.main-about__title {
+    font: 400 38px/44px Poppins, helvetica, sans-serif;
+}
+
+.main-about__link {
+    position: absolute;
+    padding: 11px 17px 10px 17px;
+    bottom: 2px;
+    font: 400 20px/29px Poppins, helvetica, sans-serif;
+    text-decoration: none;
+    border: 2px solid #4b321D;
+    border-radius: 3px;
+}
+
+.email {
+    position: relative;
+    height: 885.59px;
+}
+
+.email__block {
+    position: relative;
+    width: 630px;
+    height: 178px;
 }
