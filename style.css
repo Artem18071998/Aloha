@@ -240,6 +240,7 @@ body {
 
 .footer__right {
     position: relative;
+    display: flex;
     bottom: 210px;
     float: right;
     width: 620px;
@@ -250,7 +251,6 @@ body {
 .footer__right-two,
 .footer__social {
     display: grid;
-    height: 196px;
 }
 
 .footer__right-one {
@@ -265,12 +265,24 @@ body {
 }
 
 .footer__right-two {
+    position: relative;
+    top: 9px;
+    left: 177px;
+    margin-bottom: 25px;
     width: 69px;
 }
 
-.footer__right-two-link {
+.footer__right-two-link,
+.footer__social-link {
     position: relative;
-    height: 29px;
     text-decoration: none;
     font: 400 17px/28.8px Poppins, helvetica, sans-serif;
+}
+
+.footer__social {
+    position: relative;
+    top: 13px;
+    left: 58%;
+    margin-bottom: 115px;
+    width: 93px;
 }
